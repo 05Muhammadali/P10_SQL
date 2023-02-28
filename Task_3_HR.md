@@ -15,3 +15,7 @@ ON emp.department_id = dep.department_id;```
 4.```SELECT emp.first_name, emp.last_name, emp.department_id, dep.department_name FROM employees emp JOIN departments dep ON emp.department_id = dep.department_id AND emp.department_id IN (80, 40) ORDER BY emp.last_name;```
 
 ![image](https://user-images.githubusercontent.com/123379322/221878155-32e25e11-99b1-46dc-91d6-2c2994e2cff4.png)
+
+5.```SELECT emp.first_name, emp.last_name, dep.department_name, loc.city, loc.state_province FROM employees emp JOIN departments dep ON emp.department_id = dep.department_id JOIN locations loc ON dep.location_id = loc.location_id AND emp.first_name LIKE '%z%'```
+
+![image](https://user-images.githubusercontent.com/123379322/221879799-c686bf4b-eff6-4268-9b8f-d0f2168c099d.png)
