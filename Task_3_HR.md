@@ -12,11 +12,6 @@ ON emp.department_id = dep.department_id;```
 
 ![image](https://user-images.githubusercontent.com/123379322/221875691-49470a2a-5061-4a6d-933b-d01c6c837ae3.png)
 
-4. ```SELECT emp.first_name, emp.last_name, emp.department_id, dep.department_name 
-FROM employees emp
-JOIN departments dep
-ON emp.department_id = dep.department_id
-AND emp.department_id IN (80, 40)
-ORDER BY emp.last_name;```
+4. ```SELECT emp.first_name, emp.last_name, emp.department_id, dep.department_name FROM employees emp JOIN departments dep ON emp.department_id = dep.department_id AND emp.department_id IN (80, 40) ORDER BY emp.last_name;```
 
 ![image](https://user-images.githubusercontent.com/123379322/221878155-32e25e11-99b1-46dc-91d6-2c2994e2cff4.png)
