@@ -7,4 +7,5 @@ ON emp.department_id = dep.department_id;```
 ![image](https://user-images.githubusercontent.com/123379322/221874552-3c477ae6-8a49-4a2d-939e-b2b3f61f289f.png)
 
 3.```SELECT emp.first_name, emp.last_name, emp.salary, job.grade_level FROM employees emp JOIN job_grades job ON emp.salary BETWEEN job.lowest_sal AND job.highest_sal;```
+
 ![image](https://user-images.githubusercontent.com/123379322/221875691-49470a2a-5061-4a6d-933b-d01c6c837ae3.png)
