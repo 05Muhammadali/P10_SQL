@@ -1,3 +1,4 @@
 1.```SELECT emp.first_name, emp.last_name, emp.department_id, dep.department_name
 FROM employees emp JOIN departments dep
 ON emp.department_id = dep.department_id;```
+![image](https://user-images.githubusercontent.com/123379322/221872565-ebc94358-8c3e-4e4e-9f84-890db80ab5c4.png)
